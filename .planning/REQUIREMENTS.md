@@ -16,7 +16,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **FOUND-05**: All 13 themes render identically to web CSS custom properties
 - [x] **FOUND-06**: Custom fonts load (Plus Jakarta Sans, JetBrains Mono) before first render
 - [x] **FOUND-07**: Shared component library matches web design language (buttons, badges, cards, inputs, toggles, toasts)
-- [ ] **FOUND-08**: Maestro test infrastructure runs on iOS Simulator with screenshot capture
+- [x] **FOUND-08**: Maestro test infrastructure runs on iOS Simulator with screenshot capture
 
 ### Connection
 
@@ -225,7 +225,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-05 | Phase 1 | Complete |
 | FOUND-06 | Phase 1 | Complete |
 | FOUND-07 | Phase 1 | Complete |
-| FOUND-08 | Phase 1 | Pending |
+| FOUND-08 | Phase 1 | Complete |
 | CONN-01 | Phase 2 | Pending |
 | CONN-02 | Phase 2 | Pending |
 | CONN-03 | Phase 2 | Pending |

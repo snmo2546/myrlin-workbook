@@ -12,7 +12,7 @@ Myrlin Mobile is a React Native (Expo) companion app connecting to the existing 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Expo project scaffold, EAS Build, navigation shell, theme system, shared components, Maestro infra
+- [x] **Phase 1: Foundation** - Expo project scaffold, EAS Build, navigation shell, theme system, shared components, Maestro infra (completed 2026-03-28)
 - [ ] **Phase 2: Connection and Auth** - QR pairing, manual connect, multi-server, biometric lock, server pairing endpoints
 - [ ] **Phase 3: Sessions and Workspaces** - Session list with SSE, session CRUD, workspace management, search, conflicts
 - [ ] **Phase 4: Terminal** - Hybrid WebView + xterm.js terminal, native input, clipboard, share, voice, camera, reader mode
@@ -148,7 +148,7 @@ Note: Phases 4, 5, and 6 all depend on Phase 3 but not on each other. They can b
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 2/3 | In Progress|  |
+| 1. Foundation | 3/3 | Complete   | 2026-03-28 |
 | 2. Connection and Auth | 0/3 | Not started | - |
 | 3. Sessions and Workspaces | 0/4 | Not started | - |
 | 4. Terminal | 0/3 | Not started | - |
