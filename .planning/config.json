@@ -1,0 +1,17 @@
+{
+  "mode": "yolo",
+  "granularity": "standard",
+  "parallelization": true,
+  "commit_docs": true,
+  "model_profile": "quality",
+  "workflow": {
+    "research": true,
+    "plan_check": true,
+    "verifier": true,
+    "nyquist_validation": true,
+    "auto_advance": true,
+    "_auto_verify": true,
+    "_qa_agent": true,
+    "_opus_override": "ALL agents must use model: opus. Non-negotiable per project rules."
+  }
+}
