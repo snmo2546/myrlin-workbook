@@ -148,7 +148,7 @@ Note: Phases 4, 5, and 6 all depend on Phase 3 but not on each other. They can b
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/3 | In Progress|  |
+| 1. Foundation | 2/3 | In Progress|  |
 | 2. Connection and Auth | 0/3 | Not started | - |
 | 3. Sessions and Workspaces | 0/4 | Not started | - |
 | 4. Terminal | 0/3 | Not started | - |
