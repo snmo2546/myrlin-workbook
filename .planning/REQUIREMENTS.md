@@ -218,13 +218,130 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (Populated by roadmapper) | | |
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 1 | Pending |
+| FOUND-06 | Phase 1 | Pending |
+| FOUND-07 | Phase 1 | Pending |
+| FOUND-08 | Phase 1 | Pending |
+| CONN-01 | Phase 2 | Pending |
+| CONN-02 | Phase 2 | Pending |
+| CONN-03 | Phase 2 | Pending |
+| CONN-04 | Phase 2 | Pending |
+| CONN-05 | Phase 2 | Pending |
+| CONN-06 | Phase 2 | Pending |
+| CONN-07 | Phase 2 | Pending |
+| CONN-08 | Phase 2 | Pending |
+| AUTH-01 | Phase 2 | Pending |
+| AUTH-02 | Phase 2 | Pending |
+| AUTH-03 | Phase 2 | Pending |
+| AUTH-04 | Phase 2 | Pending |
+| SRVR-01 | Phase 2 | Pending |
+| SRVR-02 | Phase 2 | Pending |
+| SESS-01 | Phase 3 | Pending |
+| SESS-02 | Phase 3 | Pending |
+| SESS-03 | Phase 3 | Pending |
+| SESS-04 | Phase 3 | Pending |
+| SESS-05 | Phase 3 | Pending |
+| SESS-06 | Phase 3 | Pending |
+| SESS-07 | Phase 3 | Pending |
+| SESS-08 | Phase 3 | Pending |
+| SESS-09 | Phase 3 | Pending |
+| SESS-10 | Phase 3 | Pending |
+| SESS-11 | Phase 3 | Pending |
+| SESS-12 | Phase 3 | Pending |
+| SESS-13 | Phase 3 | Pending |
+| SESS-14 | Phase 3 | Pending |
+| SESS-15 | Phase 3 | Pending |
+| SESS-16 | Phase 3 | Pending |
+| SESS-17 | Phase 3 | Pending |
+| SESS-18 | Phase 3 | Pending |
+| WORK-01 | Phase 3 | Pending |
+| WORK-02 | Phase 3 | Pending |
+| WORK-03 | Phase 3 | Pending |
+| WORK-04 | Phase 3 | Pending |
+| WORK-05 | Phase 3 | Pending |
+| WORK-06 | Phase 3 | Pending |
+| WORK-07 | Phase 3 | Pending |
+| SRCH-01 | Phase 3 | Pending |
+| SRCH-02 | Phase 3 | Pending |
+| SRCH-03 | Phase 3 | Pending |
+| CNFL-01 | Phase 3 | Pending |
+| CNFL-02 | Phase 3 | Pending |
+| TERM-01 | Phase 4 | Pending |
+| TERM-02 | Phase 4 | Pending |
+| TERM-03 | Phase 4 | Pending |
+| TERM-04 | Phase 4 | Pending |
+| TERM-05 | Phase 4 | Pending |
+| TERM-06 | Phase 4 | Pending |
+| TERM-07 | Phase 4 | Pending |
+| TERM-08 | Phase 4 | Pending |
+| TERM-09 | Phase 4 | Pending |
+| TERM-10 | Phase 4 | Pending |
+| TERM-11 | Phase 4 | Pending |
+| TERM-12 | Phase 4 | Pending |
+| COST-01 | Phase 5 | Pending |
+| COST-02 | Phase 5 | Pending |
+| COST-03 | Phase 5 | Pending |
+| COST-04 | Phase 5 | Pending |
+| COST-05 | Phase 5 | Pending |
+| COST-06 | Phase 5 | Pending |
+| COST-07 | Phase 5 | Pending |
+| COST-08 | Phase 5 | Pending |
+| DOCS-01 | Phase 5 | Pending |
+| DOCS-02 | Phase 5 | Pending |
+| DOCS-03 | Phase 5 | Pending |
+| DOCS-04 | Phase 5 | Pending |
+| DOCS-05 | Phase 5 | Pending |
+| DOCS-06 | Phase 5 | Pending |
+| DOCS-07 | Phase 5 | Pending |
+| DOCS-08 | Phase 5 | Pending |
+| TASK-01 | Phase 5 | Pending |
+| TASK-02 | Phase 5 | Pending |
+| TASK-03 | Phase 5 | Pending |
+| TASK-04 | Phase 5 | Pending |
+| TASK-05 | Phase 5 | Pending |
+| TASK-06 | Phase 5 | Pending |
+| TASK-07 | Phase 5 | Pending |
+| TASK-08 | Phase 5 | Pending |
+| TASK-09 | Phase 5 | Pending |
+| TASK-10 | Phase 5 | Pending |
+| TASK-11 | Phase 5 | Pending |
+| TASK-12 | Phase 5 | Pending |
+| RSRC-01 | Phase 5 | Pending |
+| RSRC-02 | Phase 5 | Pending |
+| RSRC-03 | Phase 5 | Pending |
+| NOTF-01 | Phase 6 | Pending |
+| NOTF-02 | Phase 6 | Pending |
+| NOTF-03 | Phase 6 | Pending |
+| NOTF-04 | Phase 6 | Pending |
+| NOTF-05 | Phase 6 | Pending |
+| NOTF-06 | Phase 6 | Pending |
+| SRVR-03 | Phase 6 | Pending |
+| SRVR-04 | Phase 6 | Pending |
+| SRVR-05 | Phase 6 | Pending |
+| SETT-01 | Phase 6 | Pending |
+| SETT-02 | Phase 6 | Pending |
+| SETT-03 | Phase 6 | Pending |
+| SETT-04 | Phase 6 | Pending |
+| SETT-05 | Phase 6 | Pending |
+| PLAT-01 | Phase 7 | Pending |
+| PLAT-02 | Phase 7 | Pending |
+| PLAT-03 | Phase 7 | Pending |
+| PLAT-04 | Phase 7 | Pending |
+| PLAT-05 | Phase 7 | Pending |
+| TEST-01 | Phase 7 | Pending |
+| TEST-02 | Phase 7 | Pending |
+| TEST-03 | Phase 7 | Pending |
+| TEST-04 | Phase 7 | Pending |
 
 **Coverage:**
-- v1 requirements: 95 total
-- Mapped to phases: 0 (awaiting roadmap)
-- Unmapped: 95
+- v1 requirements: 118 total (17 categories)
+- Mapped to phases: 118/118
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-28*
-*Last updated: 2026-03-28 after initial definition*
+*Last updated: 2026-03-28 after roadmap creation*
