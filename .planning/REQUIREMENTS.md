@@ -77,13 +77,13 @@
 
 ### Session Pagination
 
-- [ ] **PAGE-01**: GET /api/sessions supports limit and offset query parameters
-- [ ] **PAGE-02**: GET /api/sessions supports status filter (running, stopped, error, idle, all)
-- [ ] **PAGE-03**: GET /api/sessions supports sort (lastActive, name, created) and order (asc, desc)
-- [ ] **PAGE-04**: GET /api/sessions supports search query param (substring match on name/topic)
-- [ ] **PAGE-05**: GET /api/sessions supports workspaceId filter
-- [ ] **PAGE-06**: Paginated response includes total count, hasMore flag
-- [ ] **PAGE-07**: Default limit is 50, max 100, for backward compatibility unpaginated requests still work
+- [x] **PAGE-01**: GET /api/sessions supports limit and offset query parameters
+- [x] **PAGE-02**: GET /api/sessions supports status filter (running, stopped, error, idle, all)
+- [x] **PAGE-03**: GET /api/sessions supports sort (lastActive, name, created) and order (asc, desc)
+- [x] **PAGE-04**: GET /api/sessions supports search query param (substring match on name/topic)
+- [x] **PAGE-05**: GET /api/sessions supports workspaceId filter
+- [x] **PAGE-06**: Paginated response includes total count, hasMore flag
+- [x] **PAGE-07**: Default limit is 50, max 100, for backward compatibility unpaginated requests still work
 
 ### Desktop Web UI
 
@@ -192,13 +192,13 @@
 | SYNC-02 | Phase 11 | Pending |
 | SYNC-03 | Phase 11 | Pending |
 | SYNC-04 | Phase 11 | Pending |
-| PAGE-01 | Phase 12 | Pending |
-| PAGE-02 | Phase 12 | Pending |
-| PAGE-03 | Phase 12 | Pending |
-| PAGE-04 | Phase 12 | Pending |
-| PAGE-05 | Phase 12 | Pending |
-| PAGE-06 | Phase 12 | Pending |
-| PAGE-07 | Phase 12 | Pending |
+| PAGE-01 | Phase 12 | Complete |
+| PAGE-02 | Phase 12 | Complete |
+| PAGE-03 | Phase 12 | Complete |
+| PAGE-04 | Phase 12 | Complete |
+| PAGE-05 | Phase 12 | Complete |
+| PAGE-06 | Phase 12 | Complete |
+| PAGE-07 | Phase 12 | Complete |
 | DWUI-01 | Phase 9 | Pending |
 | DWUI-02 | Phase 9 | Pending |
 | DWUI-03 | Phase 9 | Pending |

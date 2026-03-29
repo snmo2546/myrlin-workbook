@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Mobile App
 status: executing
-stopped_at: Completed 10-01-PLAN.md
-last_updated: "2026-03-29T08:37:26.613Z"
-last_activity: 2026-03-29 - Completed Plan 11-01 (SSE heartbeat and device-aware client registry)
+stopped_at: Completed 12-01-PLAN.md
+last_updated: "2026-03-29T08:37:40Z"
+last_activity: 2026-03-29 - Completed Plan 12-01 (paginated sessions endpoint)
 progress:
   total_phases: 13
   completed_phases: 8
   total_plans: 37
-  completed_plans: 29
-  percent: 73
+  completed_plans: 30
+  percent: 81
 ---
 
 # Project State
@@ -49,6 +49,7 @@ Progress: [███████░░░] 73% (27/37 plans)
 | 11    | 01   | 3min     | 1     | 1     |
 | Phase 09 P01 | 2min | 2 tasks | 2 files |
 | Phase 10 P01 | 2min | 2 tasks | 1 files |
+| 12    | 01   | 3min     | 2     | 2     |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Progress: [███████░░░] 73% (27/37 plans)
 - [Phase 09]: Tailscale detection uses 100.x.x.x prefix match; primary URL order: custom > tunnel > lan > local
 - [Phase 10]: 10-01: Per-device retry (not batch POST) so one stale token does not block others
 - [Phase 10]: 10-01: Module-level Map + setTimeout for 2-second push batching window
+- 12-01: Dual-mode endpoint detection (mode param = legacy, pagination params = new response shape)
+- 12-01: Default no-params returns legacy { sessions } for backward compat with existing GUI
 
 ### Pending Todos
 

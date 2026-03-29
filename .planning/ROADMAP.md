@@ -241,7 +241,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 12-01-PLAN.md - Session pagination (limit, offset, status, sort, search, workspaceId) with backward compatibility
+- [x] 12-01-PLAN.md - Session pagination (limit, offset, status, sort, search, workspaceId) with backward compatibility
 - [ ] 12-02-PLAN.md - Scrollback pagination, logs pagination, token refresh endpoint
 - [ ] 12-03-PLAN.md - Integration tests for session pagination, scrollback, logs, and token refresh
 
@@ -282,5 +282,5 @@ Phase 8 is the critical foundation. After Phase 8:
 | 9. Pairing Enhancement and Desktop UI | v1.1 | 0/2 | Not started | - |
 | 10. Push Enhancement | 1/3 | In Progress|  | - |
 | 11. SSE and Sync Optimization | 1/3 | In Progress|  | - |
-| 12. API Enhancement | v1.1 | 0/3 | Not started | - |
+| 12. API Enhancement | v1.1 | 1/3 | In Progress | - |
 | 13. Error Standards and Hardening | v1.1 | 0/1 | Not started | - |
