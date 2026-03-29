@@ -16,12 +16,12 @@
 
 ### Device Registry
 
-- [ ] **DEVC-01**: Server stores paired device metadata (deviceId, name, platform, appVersion, pairedAt, lastSeenAt, expiresAt)
-- [ ] **DEVC-02**: Device lastSeenAt updates on each authenticated API request (debounced)
-- [ ] **DEVC-03**: GET /api/devices returns list of all paired devices with online status
-- [ ] **DEVC-04**: DELETE /api/devices/:deviceId revokes device token and closes active connections
-- [ ] **DEVC-05**: PUT /api/devices/:deviceId updates device name and push preferences
-- [ ] **DEVC-06**: POST /api/devices/:deviceId/test-push sends test notification to device
+- [x] **DEVC-01**: Server stores paired device metadata (deviceId, name, platform, appVersion, pairedAt, lastSeenAt, expiresAt)
+- [x] **DEVC-02**: Device lastSeenAt updates on each authenticated API request (debounced)
+- [x] **DEVC-03**: GET /api/devices returns list of all paired devices with online status
+- [x] **DEVC-04**: DELETE /api/devices/:deviceId revokes device token and closes active connections
+- [x] **DEVC-05**: PUT /api/devices/:deviceId updates device name and push preferences
+- [x] **DEVC-06**: POST /api/devices/:deviceId/test-push sends test notification to device
 
 ### Pairing Enhancement
 
@@ -152,12 +152,12 @@
 | TOKN-04 | Phase 8 | Complete |
 | TOKN-05 | Phase 12 | Pending |
 | TOKN-06 | Phase 12 | Pending |
-| DEVC-01 | Phase 8 | Pending |
-| DEVC-02 | Phase 8 | Pending |
-| DEVC-03 | Phase 8 | Pending |
-| DEVC-04 | Phase 8 | Pending |
-| DEVC-05 | Phase 8 | Pending |
-| DEVC-06 | Phase 8 | Pending |
+| DEVC-01 | Phase 8 | Complete |
+| DEVC-02 | Phase 8 | Complete |
+| DEVC-03 | Phase 8 | Complete |
+| DEVC-04 | Phase 8 | Complete |
+| DEVC-05 | Phase 8 | Complete |
+| DEVC-06 | Phase 8 | Complete |
 | PAIR-01 | Phase 9 | Pending |
 | PAIR-02 | Phase 9 | Pending |
 | PAIR-03 | Phase 9 | Pending |

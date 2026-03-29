@@ -1,17 +1,17 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.1
-milestone_name: server-mobile-support
+milestone: v1.0
+milestone_name: Mobile App
 status: executing
-stopped_at: Completed 08-01-PLAN.md
-last_updated: "2026-03-29T08:15:00.000Z"
+stopped_at: Completed 08-02-PLAN.md
+last_updated: "2026-03-29T08:20:32.560Z"
 last_activity: 2026-03-29 - Completed Plan 08-01 (token persistence, CORS mobile support)
 progress:
   total_phases: 13
   completed_phases: 7
   total_plans: 26
-  completed_plans: 24
-  percent: 0
+  completed_plans: 25
+  percent: 33
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-29)
 ## Current Position
 
 Phase: 8 of 13 (Token Persistence and Device Registry) - first phase of v1.1
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: Executing
-Last activity: 2026-03-29 - Completed Plan 08-01 (token persistence, CORS mobile support)
+Last activity: 2026-03-29 - Completed Plan 08-02 (device management API, SSE Map migration)
 
-Progress: [███░░░░░░░] 33% (Phase 8)
+Progress: [██████░░░░] 67% (Phase 8)
 
 ## Performance Metrics
 
@@ -44,6 +44,7 @@ Progress: [███░░░░░░░] 33% (Phase 8)
 | Phase | Plan | Duration | Tasks | Files |
 |-------|------|----------|-------|-------|
 | 08    | 01   | 3min     | 2     | 4     |
+| Phase 08 P02 | 2min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -58,6 +59,8 @@ Progress: [███░░░░░░░] 33% (Phase 8)
 - 08-01: Device tokens stored plaintext (matches pushDevices pattern; hashing deferred to Phase 12)
 - 08-01: CORS preflight allows Authorization from any origin (OPTIONS cannot carry Bearer)
 - 08-01: lastSeenAt debounced at 60s per device
+- [Phase 08]: SSE clients migrated from Set to Map for device online detection
+- [Phase 08]: Test push sends to single device via Expo API, not broadcast
 
 ### Pending Todos
 
@@ -69,6 +72,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29
-Stopped at: Completed 08-01-PLAN.md (token persistence, CORS mobile support)
+Last session: 2026-03-29T08:20:32.555Z
+Stopped at: Completed 08-02-PLAN.md
 Resume file: None
