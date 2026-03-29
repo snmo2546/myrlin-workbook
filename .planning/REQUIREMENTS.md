@@ -110,14 +110,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Docs
 
-- [ ] **DOCS-01**: User can view workspace docs (notes, goals, tasks, roadmap, rules)
-- [ ] **DOCS-02**: User can add items to any doc section
-- [ ] **DOCS-03**: User can edit doc items
-- [ ] **DOCS-04**: User can delete doc items (swipe-to-delete)
-- [ ] **DOCS-05**: User can toggle goal/task completion (checkbox)
-- [ ] **DOCS-06**: User can view feature board (kanban: backlog, active, done)
-- [ ] **DOCS-07**: User can create and manage features on the board
-- [ ] **DOCS-08**: User can drag features between board columns
+- [x] **DOCS-01**: User can view workspace docs (notes, goals, tasks, roadmap, rules)
+- [x] **DOCS-02**: User can add items to any doc section
+- [x] **DOCS-03**: User can edit doc items
+- [x] **DOCS-04**: User can delete doc items (swipe-to-delete)
+- [x] **DOCS-05**: User can toggle goal/task completion (checkbox)
+- [x] **DOCS-06**: User can view feature board (kanban: backlog, active, done)
+- [x] **DOCS-07**: User can create and manage features on the board
+- [x] **DOCS-08**: User can drag features between board columns
 
 ### Notifications
 
@@ -290,14 +290,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | COST-06 | Phase 5 | Complete |
 | COST-07 | Phase 5 | Complete |
 | COST-08 | Phase 5 | Complete |
-| DOCS-01 | Phase 5 | Pending |
-| DOCS-02 | Phase 5 | Pending |
-| DOCS-03 | Phase 5 | Pending |
-| DOCS-04 | Phase 5 | Pending |
-| DOCS-05 | Phase 5 | Pending |
-| DOCS-06 | Phase 5 | Pending |
-| DOCS-07 | Phase 5 | Pending |
-| DOCS-08 | Phase 5 | Pending |
+| DOCS-01 | Phase 5 | Complete |
+| DOCS-02 | Phase 5 | Complete |
+| DOCS-03 | Phase 5 | Complete |
+| DOCS-04 | Phase 5 | Complete |
+| DOCS-05 | Phase 5 | Complete |
+| DOCS-06 | Phase 5 | Complete |
+| DOCS-07 | Phase 5 | Complete |
+| DOCS-08 | Phase 5 | Complete |
 | TASK-01 | Phase 5 | Pending |
 | TASK-02 | Phase 5 | Pending |
 | TASK-03 | Phase 5 | Pending |

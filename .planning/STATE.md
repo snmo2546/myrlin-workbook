@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: Completed 05-01-PLAN.md (Cost dashboard screen)
+stopped_at: Completed 05-02-PLAN.md (Workspace docs and feature board)
 last_updated: "2026-03-29T02:03:41.657Z"
-last_activity: 2026-03-29 - Completed 04-03 (Terminal carousel and reader mode)
+last_activity: 2026-03-29 - Completed 05-02 (Workspace docs and feature board)
 progress:
   total_phases: 7
   completed_phases: 4
   total_plans: 17
-  completed_plans: 15
-  percent: 73
+  completed_plans: 16
+  percent: 82
 ---
 
 # Project State
@@ -63,6 +63,7 @@ Progress: [███████░░░] 73%
 | Phase 04-terminal P03 | 4m | 2 tasks | 7 files |
 | Phase 05 P04 | 4m | 1 tasks | 7 files |
 | Phase 05-data-screens P01 | 6m | 2 tasks | 9 files |
+| Phase 05-data-screens P02 | 7m | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -115,6 +116,9 @@ Recent decisions affecting current work:
 - [Phase 05]: FlashList scrollEnabled=false inside ScrollView for nested scroll in resource monitor
 - [Phase 05-data-screens]: Victory Native v2 API (CartesianChart + Line), not legacy v1
 - [Phase 05-data-screens]: 30s staleTime for cost queries (heavier data than sessions)
+- 05-02: ActionSheet for kanban status changes instead of drag-drop (reliability over animation)
+- 05-02: LayoutAnimation for doc section collapse (simpler than Reanimated layout transitions)
+- 05-02: Inline TextInput for adding doc items (faster UX than modal)
 
 ### Pending Todos
 
@@ -128,6 +132,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29T02:03:41.653Z
-Stopped at: Completed 05-01-PLAN.md (Cost dashboard screen)
+Last session: 2026-03-29T02:04:30Z
+Stopped at: Completed 05-02-PLAN.md (Workspace docs and feature board)
 Resume file: None
