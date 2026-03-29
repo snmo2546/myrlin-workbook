@@ -22,7 +22,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **CONN-01**: User can scan QR code from desktop Myrlin UI to pair their phone
 - [ ] **CONN-02**: User can manually enter server URL and password to connect
-- [ ] **CONN-03**: Auth token stored securely in expo-secure-store (encrypted)
+- [x] **CONN-03**: Auth token stored securely in expo-secure-store (encrypted)
 - [ ] **CONN-04**: App reconnects automatically when connection drops and recovers
 - [ ] **CONN-05**: User can connect to multiple servers (home PC, work, etc.)
 - [ ] **CONN-06**: User can switch between connected servers
@@ -31,10 +31,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Authentication
 
-- [ ] **AUTH-01**: User can log in with password on known server
+- [x] **AUTH-01**: User can log in with password on known server
 - [ ] **AUTH-02**: Biometric app lock (Face ID / fingerprint) gates all screens
-- [ ] **AUTH-03**: User can log out from any screen
-- [ ] **AUTH-04**: Session token persists across app restarts (auto-login)
+- [x] **AUTH-03**: User can log out from any screen
+- [x] **AUTH-04**: Session token persists across app restarts (auto-login)
 
 ### Sessions
 
@@ -163,8 +163,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Server Additions
 
-- [ ] **SRVR-01**: Server exposes GET /api/auth/pairing-code for QR generation
-- [ ] **SRVR-02**: Server exposes POST /api/auth/pair for mobile token exchange
+- [x] **SRVR-01**: Server exposes GET /api/auth/pairing-code for QR generation
+- [x] **SRVR-02**: Server exposes POST /api/auth/pair for mobile token exchange
 - [ ] **SRVR-03**: Server exposes POST /api/push/register for device token storage
 - [ ] **SRVR-04**: Server exposes POST /api/push/unregister for device removal
 - [ ] **SRVR-05**: Server sends push via Expo Push API on session events
@@ -228,18 +228,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-08 | Phase 1 | Complete |
 | CONN-01 | Phase 2 | Pending |
 | CONN-02 | Phase 2 | Pending |
-| CONN-03 | Phase 2 | Pending |
+| CONN-03 | Phase 2 | Complete |
 | CONN-04 | Phase 2 | Pending |
 | CONN-05 | Phase 2 | Pending |
 | CONN-06 | Phase 2 | Pending |
 | CONN-07 | Phase 2 | Pending |
 | CONN-08 | Phase 2 | Pending |
-| AUTH-01 | Phase 2 | Pending |
+| AUTH-01 | Phase 2 | Complete |
 | AUTH-02 | Phase 2 | Pending |
-| AUTH-03 | Phase 2 | Pending |
-| AUTH-04 | Phase 2 | Pending |
-| SRVR-01 | Phase 2 | Pending |
-| SRVR-02 | Phase 2 | Pending |
+| AUTH-03 | Phase 2 | Complete |
+| AUTH-04 | Phase 2 | Complete |
+| SRVR-01 | Phase 2 | Complete |
+| SRVR-02 | Phase 2 | Complete |
 | SESS-01 | Phase 3 | Pending |
 | SESS-02 | Phase 3 | Pending |
 | SESS-03 | Phase 3 | Pending |

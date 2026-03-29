@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 01-03-PLAN.md (Maestro E2E test infrastructure)
-last_updated: "2026-03-28T23:57:26.669Z"
-last_activity: 2026-03-28 - Completed 01-03 (Maestro E2E test infrastructure)
+status: in-progress
+stopped_at: Completed 02-01-PLAN.md (Server pairing and mobile foundation)
+last_updated: "2026-03-29T00:24:00.000Z"
+last_activity: 2026-03-29 - Completed 02-01 (Server pairing and mobile foundation)
 progress:
   total_phases: 7
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
-  percent: 100
+  total_plans: 6
+  completed_plans: 4
+  percent: 57
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-28)
 
 **Core value:** A Myrlin user can monitor, control, and interact with all their Claude Code sessions from their phone with the same capability as the desktop web interface, plus native mobile advantages.
-**Current focus:** Phase 1: Foundation
+**Current focus:** Phase 2: Connection and Auth
 
 ## Current Position
 
-Phase: 1 of 7 (Foundation) - COMPLETE
-Plan: 3 of 3 in current phase
-Status: Phase Complete
-Last activity: 2026-03-28 - Completed 01-03 (Maestro E2E test infrastructure)
+Phase: 2 of 7 (Connection and Auth)
+Plan: 1 of 3 in current phase
+Status: In Progress
+Last activity: 2026-03-29 - Completed 02-01 (Server pairing endpoints and mobile foundation)
 
-Progress: [██████████] 100%
+Progress: [█████░░░░░] 57%
 
 ## Performance Metrics
 
@@ -51,6 +51,7 @@ Progress: [██████████] 100%
 
 *Updated after each plan completion*
 | Phase 01-foundation P03 | 1m | 2 tasks | 4 files |
+| Phase 02-connection-and-auth P01 | 6m | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -69,6 +70,10 @@ Recent decisions affecting current work:
 - 01-02: Tab screens use subdirectory structure for future nested stack routes
 - 01-02: Ionicons for tab bar icons (ships with Expo, good coverage)
 - [Phase 01-foundation]: Used com.myrlin.mobile as Maestro appId matching Expo slug convention
+- 02-01: Shared rate limiter between login and pairing endpoints (single IP budget)
+- 02-01: Dependency injection for pairing routes (setupPairing receives auth functions as params)
+- 02-01: SecureStore adapter is async, Zustand persist handles it natively
+- 02-01: API client pair() omits Authorization header since pairing is pre-auth
 
 ### Pending Todos
 
@@ -82,6 +87,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T23:54:11.605Z
-Stopped at: Completed 01-03-PLAN.md (Maestro E2E test infrastructure)
+Last session: 2026-03-29T00:24:00.000Z
+Stopped at: Completed 02-01-PLAN.md (Server pairing and mobile foundation)
 Resume file: None
