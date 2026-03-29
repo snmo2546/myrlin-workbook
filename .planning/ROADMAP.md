@@ -150,7 +150,7 @@ Note: Phases 4, 5, and 6 all depend on Phase 3 but not on each other. They can b
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-28 |
 | 2. Connection and Auth | 2/3 | In Progress|  |
-| 3. Sessions and Workspaces | 1/4 | In Progress|  |
+| 3. Sessions and Workspaces | 3/4 | In Progress|  |
 | 4. Terminal | 0/3 | Not started | - |
 | 5. Data Screens | 0/4 | Not started | - |
 | 6. Notifications and Settings | 0/3 | Not started | - |

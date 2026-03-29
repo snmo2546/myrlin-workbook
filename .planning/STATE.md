@@ -3,9 +3,9 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-03-PLAN.md (Workspace management screen)
+stopped_at: Completed 03-04-PLAN.md (Search, quick switcher, and conflict center)
 last_updated: "2026-03-29T01:04:23.067Z"
-last_activity: 2026-03-29 - Completed 03-01 (Types, API client, SSE, query hooks, session list screen)
+last_activity: 2026-03-29 - Completed 03-04 (Search, quick switcher, and conflict center)
 progress:
   total_phases: 7
   completed_phases: 2
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 ## Current Position
 
 Phase: 3 of 7 (Sessions and Workspaces)
-Plan: 1 of 4 in current phase
+Plan: 4 of 4 in current phase
 Status: In Progress
-Last activity: 2026-03-29 - Completed 03-01 (Types, API client, SSE, query hooks, session list screen)
+Last activity: 2026-03-29 - Completed 03-04 (Search, quick switcher, and conflict center)
 
 Progress: [██████░░░░] 60%
 
@@ -55,6 +55,7 @@ Progress: [██████░░░░] 60%
 | Phase 02 P02 | 5m | 4 tasks | 7 files |
 | Phase 02 P03 | 4m | 3 tasks | 7 files |
 | Phase 03 P01 | 6m | 2 tasks | 14 files |
+| Phase 03 P04 | 4m | 2 tasks | 6 files |
 | Phase 03 P03 | 4m | 2 tasks | 5 files |
 
 ## Accumulated Context
@@ -89,6 +90,9 @@ Recent decisions affecting current work:
 - 03-01: SSE events invalidate TanStack Query cache only, never mutate state directly
 - 03-01: SessionCard uses Pressable directly (Card component lacks onLongPress)
 - 03-01: FlashList v2 without estimatedItemSize (auto-measures per research)
+- 03-04: useDebounce inline helper (no external dependency for simple 10-line utility)
+- 03-04: FlatList in QuickSwitcher (small list inside modal, FlashList unnecessary)
+- 03-04: Conflict polling at 30s via refetchInterval (no SSE event for conflicts)
 - [Phase 03]: Move up/down buttons for workspace reorder instead of drag-to-reorder
 - [Phase 03]: 14-swatch Catppuccin palette grid shared between workspace actions and create modal
 
@@ -104,6 +108,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29T01:04:23.064Z
-Stopped at: Completed 03-03-PLAN.md (Workspace management screen)
+Last session: 2026-03-29T01:04:12Z
+Stopped at: Completed 03-04-PLAN.md (Search, quick switcher, and conflict center)
 Resume file: None

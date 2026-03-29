@@ -136,14 +136,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Search
 
-- [ ] **SRCH-01**: User can search sessions by name, topic, or content (keyword)
-- [ ] **SRCH-02**: User can search conversations with AI-powered semantic search
-- [ ] **SRCH-03**: Quick switcher modal accessible from sessions tab
+- [x] **SRCH-01**: User can search sessions by name, topic, or content (keyword)
+- [x] **SRCH-02**: User can search conversations with AI-powered semantic search
+- [x] **SRCH-03**: Quick switcher modal accessible from sessions tab
 
 ### Conflicts
 
-- [ ] **CNFL-01**: User can view file conflicts across sessions
-- [ ] **CNFL-02**: Conflict badge shows count in More tab
+- [x] **CNFL-01**: User can view file conflicts across sessions
+- [x] **CNFL-02**: Conflict badge shows count in More tab
 
 ### Settings
 
@@ -265,11 +265,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | WORK-05 | Phase 3 | Complete |
 | WORK-06 | Phase 3 | Complete |
 | WORK-07 | Phase 3 | Complete |
-| SRCH-01 | Phase 3 | Pending |
-| SRCH-02 | Phase 3 | Pending |
-| SRCH-03 | Phase 3 | Pending |
-| CNFL-01 | Phase 3 | Pending |
-| CNFL-02 | Phase 3 | Pending |
+| SRCH-01 | Phase 3 | Complete |
+| SRCH-02 | Phase 3 | Complete |
+| SRCH-03 | Phase 3 | Complete |
+| CNFL-01 | Phase 3 | Complete |
+| CNFL-02 | Phase 3 | Complete |
 | TERM-01 | Phase 4 | Pending |
 | TERM-02 | Phase 4 | Pending |
 | TERM-03 | Phase 4 | Pending |
