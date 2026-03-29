@@ -89,6 +89,24 @@ Full design with all contracts, types, component specs, and screen specification
 - **Monorepo:** Source lives in `mobile/` directory within myrlin-workbook repo
 - **No em dashes:** NEVER use em dashes or double hyphens in any output
 
+## Current Milestone: v1.1 Server Mobile Support
+
+**Goal:** Make the Myrlin server production-ready for mobile clients with persistent auth, device management, enhanced push notifications, optimized sync, and a desktop QR pairing UI.
+
+**Target features:**
+- Persistent device tokens that survive server restarts
+- Device registry with lifecycle management (pair, track, revoke, expire)
+- Enhanced QR pairing with LAN/Tailscale/tunnel URL auto-detection
+- Desktop web UI: "Pair Mobile" modal with QR code and device management
+- Push notification retry, batching, per-device preferences, rich payloads
+- SSE optimization with heartbeat, device filtering, workspace subscriptions
+- Initial sync endpoint for fast mobile bootstrap
+- Session pagination for power users with 100+ sessions
+- Token refresh for long-lived mobile sessions
+- Server info endpoint for capability discovery
+
+**Self-hosting:** All features are 100% local. Only external dependency is Expo Push API (free relay to Apple/Google push servers, identical to how Nextcloud and Home Assistant handle mobile push). No myrlin.io, no cloud database, no external auth.
+
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
@@ -103,4 +121,4 @@ Full design with all contracts, types, component specs, and screen specification
 | Two-tier orchestration | Manager middle layer degrades context fidelity; direct briefing preserves contracts | - Pending |
 
 ---
-*Last updated: 2026-03-28 after initialization*
+*Last updated: 2026-03-29 after milestone v1.1 start*
