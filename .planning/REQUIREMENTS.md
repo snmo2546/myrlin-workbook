@@ -59,17 +59,17 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Terminal
 
-- [ ] **TERM-01**: User can view terminal output in real-time (WebView + xterm.js)
+- [x] **TERM-01**: User can view terminal output in real-time (WebView + xterm.js)
 - [ ] **TERM-02**: User can type commands via native TextInput with iOS keyboard
 - [ ] **TERM-03**: User can copy selected terminal text to clipboard
 - [ ] **TERM-04**: User can paste from clipboard into terminal
 - [ ] **TERM-05**: User can share terminal text via native share sheet
 - [ ] **TERM-06**: User can upload image from camera or gallery to session
 - [ ] **TERM-07**: User can use voice input (dictation) to type commands
-- [ ] **TERM-08**: Terminal applies correct theme colors matching current app theme
+- [x] **TERM-08**: Terminal applies correct theme colors matching current app theme
 - [ ] **TERM-09**: Terminal reader mode (full-screen scrollable text view)
 - [ ] **TERM-10**: User can swipe between open terminal sessions (carousel)
-- [ ] **TERM-11**: Activity indicator visible in terminal header
+- [x] **TERM-11**: Activity indicator visible in terminal header
 - [ ] **TERM-12**: Keyboard avoidance works correctly (input stays above keyboard)
 
 ### Workspaces
@@ -270,17 +270,17 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SRCH-03 | Phase 3 | Complete |
 | CNFL-01 | Phase 3 | Complete |
 | CNFL-02 | Phase 3 | Complete |
-| TERM-01 | Phase 4 | Pending |
+| TERM-01 | Phase 4 | Complete |
 | TERM-02 | Phase 4 | Pending |
 | TERM-03 | Phase 4 | Pending |
 | TERM-04 | Phase 4 | Pending |
 | TERM-05 | Phase 4 | Pending |
 | TERM-06 | Phase 4 | Pending |
 | TERM-07 | Phase 4 | Pending |
-| TERM-08 | Phase 4 | Pending |
+| TERM-08 | Phase 4 | Complete |
 | TERM-09 | Phase 4 | Pending |
 | TERM-10 | Phase 4 | Pending |
-| TERM-11 | Phase 4 | Pending |
+| TERM-11 | Phase 4 | Complete |
 | TERM-12 | Phase 4 | Pending |
 | COST-01 | Phase 5 | Pending |
 | COST-02 | Phase 5 | Pending |
