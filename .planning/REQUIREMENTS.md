@@ -23,16 +23,16 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **CONN-01**: User can scan QR code from desktop Myrlin UI to pair their phone
 - [ ] **CONN-02**: User can manually enter server URL and password to connect
 - [x] **CONN-03**: Auth token stored securely in expo-secure-store (encrypted)
-- [ ] **CONN-04**: App reconnects automatically when connection drops and recovers
-- [ ] **CONN-05**: User can connect to multiple servers (home PC, work, etc.)
-- [ ] **CONN-06**: User can switch between connected servers
-- [ ] **CONN-07**: Server connection status visible at all times (connected/disconnected indicator)
+- [x] **CONN-04**: App reconnects automatically when connection drops and recovers
+- [x] **CONN-05**: User can connect to multiple servers (home PC, work, etc.)
+- [x] **CONN-06**: User can switch between connected servers
+- [x] **CONN-07**: Server connection status visible at all times (connected/disconnected indicator)
 - [ ] **CONN-08**: Onboarding flow guides first-time user through pairing
 
 ### Authentication
 
 - [x] **AUTH-01**: User can log in with password on known server
-- [ ] **AUTH-02**: Biometric app lock (Face ID / fingerprint) gates all screens
+- [x] **AUTH-02**: Biometric app lock (Face ID / fingerprint) gates all screens
 - [x] **AUTH-03**: User can log out from any screen
 - [x] **AUTH-04**: Session token persists across app restarts (auto-login)
 
@@ -229,13 +229,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONN-01 | Phase 2 | Pending |
 | CONN-02 | Phase 2 | Pending |
 | CONN-03 | Phase 2 | Complete |
-| CONN-04 | Phase 2 | Pending |
-| CONN-05 | Phase 2 | Pending |
-| CONN-06 | Phase 2 | Pending |
-| CONN-07 | Phase 2 | Pending |
+| CONN-04 | Phase 2 | Complete |
+| CONN-05 | Phase 2 | Complete |
+| CONN-06 | Phase 2 | Complete |
+| CONN-07 | Phase 2 | Complete |
 | CONN-08 | Phase 2 | Pending |
 | AUTH-01 | Phase 2 | Complete |
-| AUTH-02 | Phase 2 | Pending |
+| AUTH-02 | Phase 2 | Complete |
 | AUTH-03 | Phase 2 | Complete |
 | AUTH-04 | Phase 2 | Complete |
 | SRVR-01 | Phase 2 | Complete |

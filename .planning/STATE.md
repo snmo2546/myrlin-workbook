@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
-stopped_at: Completed 02-01-PLAN.md (Server pairing and mobile foundation)
-last_updated: "2026-03-29T00:24:00.000Z"
-last_activity: 2026-03-29 - Completed 02-01 (Server pairing and mobile foundation)
+status: executing
+stopped_at: Completed 02-03-PLAN.md (Connection features)
+last_updated: "2026-03-29T00:31:38.945Z"
+last_activity: 2026-03-29 - Completed 02-01 (Server pairing endpoints and mobile foundation)
 progress:
   total_phases: 7
   completed_phases: 1
   total_plans: 6
-  completed_plans: 4
+  completed_plans: 5
   percent: 57
 ---
 
@@ -52,6 +52,7 @@ Progress: [█████░░░░░] 57%
 *Updated after each plan completion*
 | Phase 01-foundation P03 | 1m | 2 tasks | 4 files |
 | Phase 02-connection-and-auth P01 | 6m | 2 tasks | 8 files |
+| Phase 02 P03 | 4m | 3 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -74,6 +75,9 @@ Recent decisions affecting current work:
 - 02-01: Dependency injection for pairing routes (setupPairing receives auth functions as params)
 - 02-01: SecureStore adapter is async, Zustand persist handles it natively
 - 02-01: API client pair() omits Authorization header since pairing is pre-auth
+- [Phase 02]: MMKV for biometric preference (non-sensitive, sync reads)
+- [Phase 02]: Health polling: 5s base, doubles to 60s max, recursive setTimeout for backoff
+- [Phase 02]: Disconnect is best-effort server-side, always clears local state
 
 ### Pending Todos
 
@@ -87,6 +91,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29T00:24:00.000Z
-Stopped at: Completed 02-01-PLAN.md (Server pairing and mobile foundation)
+Last session: 2026-03-29T00:31:38.941Z
+Stopped at: Completed 02-03-PLAN.md (Connection features)
 Resume file: None
