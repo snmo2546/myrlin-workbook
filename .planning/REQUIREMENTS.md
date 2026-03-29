@@ -147,11 +147,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Settings
 
-- [ ] **SETT-01**: User can configure all settings matching web GUI (20+)
-- [ ] **SETT-02**: User can pick theme from all 13 options with live preview
-- [ ] **SETT-03**: User can manage connected servers (add, remove, rename)
-- [ ] **SETT-04**: User can configure push notification preferences
-- [ ] **SETT-05**: User can check for app updates
+- [x] **SETT-01**: User can configure all settings matching web GUI (20+)
+- [x] **SETT-02**: User can pick theme from all 13 options with live preview
+- [x] **SETT-03**: User can manage connected servers (add, remove, rename)
+- [x] **SETT-04**: User can configure push notification preferences
+- [x] **SETT-05**: User can check for app updates
 
 ### Platform Integration
 
@@ -322,11 +322,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SRVR-03 | Phase 6 | Complete |
 | SRVR-04 | Phase 6 | Complete |
 | SRVR-05 | Phase 6 | Complete |
-| SETT-01 | Phase 6 | Pending |
-| SETT-02 | Phase 6 | Pending |
-| SETT-03 | Phase 6 | Pending |
-| SETT-04 | Phase 6 | Pending |
-| SETT-05 | Phase 6 | Pending |
+| SETT-01 | Phase 6 | Complete |
+| SETT-02 | Phase 6 | Complete |
+| SETT-03 | Phase 6 | Complete |
+| SETT-04 | Phase 6 | Complete |
+| SETT-05 | Phase 6 | Complete |
 | PLAT-01 | Phase 7 | Pending |
 | PLAT-02 | Phase 7 | Pending |
 | PLAT-03 | Phase 7 | Pending |
