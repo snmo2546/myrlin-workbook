@@ -83,12 +83,12 @@ Plans:
   2. User can type commands, paste from clipboard, and use voice dictation to send input to the terminal
   3. User can copy terminal text, share via native share sheet, and upload images from camera or gallery
   4. User can swipe between open terminal sessions, toggle reader mode, and the keyboard never covers the input field
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: WebView + xterm.js hybrid terminal, WebSocket bridge, theme integration
-- [ ] 04-02: Native input bar, keyboard avoidance, clipboard, voice, camera, share sheet
-- [ ] 04-03: Terminal carousel, reader mode, activity indicator
+- [ ] 04-01-PLAN.md - WebView + xterm.js hybrid terminal, WebSocket bridge, theme integration, activity indicator
+- [ ] 04-02-PLAN.md - Native input bar, keyboard avoidance, clipboard, voice, camera, share sheet
+- [ ] 04-03-PLAN.md - Terminal carousel, reader mode
 
 ### Phase 5: Data Screens
 **Goal**: User can view cost analytics, manage workspace docs, track tasks on a kanban board, and monitor system resources
