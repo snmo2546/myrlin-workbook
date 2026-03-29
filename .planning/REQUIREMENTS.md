@@ -74,13 +74,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Workspaces
 
-- [ ] **WORK-01**: User can view all workspaces with session counts
-- [ ] **WORK-02**: User can create a new workspace (name, description, color)
-- [ ] **WORK-03**: User can rename a workspace
-- [ ] **WORK-04**: User can delete a workspace
-- [ ] **WORK-05**: User can reorder workspaces via drag-and-drop
-- [ ] **WORK-06**: User can view workspace groups (collapsible)
-- [ ] **WORK-07**: User can assign workspace colors
+- [x] **WORK-01**: User can view all workspaces with session counts
+- [x] **WORK-02**: User can create a new workspace (name, description, color)
+- [x] **WORK-03**: User can rename a workspace
+- [x] **WORK-04**: User can delete a workspace
+- [x] **WORK-05**: User can reorder workspaces via drag-and-drop
+- [x] **WORK-06**: User can view workspace groups (collapsible)
+- [x] **WORK-07**: User can assign workspace colors
 
 ### Tasks
 
@@ -258,13 +258,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SESS-16 | Phase 3 | Complete |
 | SESS-17 | Phase 3 | Complete |
 | SESS-18 | Phase 3 | Pending |
-| WORK-01 | Phase 3 | Pending |
-| WORK-02 | Phase 3 | Pending |
-| WORK-03 | Phase 3 | Pending |
-| WORK-04 | Phase 3 | Pending |
-| WORK-05 | Phase 3 | Pending |
-| WORK-06 | Phase 3 | Pending |
-| WORK-07 | Phase 3 | Pending |
+| WORK-01 | Phase 3 | Complete |
+| WORK-02 | Phase 3 | Complete |
+| WORK-03 | Phase 3 | Complete |
+| WORK-04 | Phase 3 | Complete |
+| WORK-05 | Phase 3 | Complete |
+| WORK-06 | Phase 3 | Complete |
+| WORK-07 | Phase 3 | Complete |
 | SRCH-01 | Phase 3 | Pending |
 | SRCH-02 | Phase 3 | Pending |
 | SRCH-03 | Phase 3 | Pending |
