@@ -221,12 +221,12 @@ Plans:
   2. A mobile device subscribed to specific workspaces only receives events for those workspaces (plus global events)
   3. GET /api/mobile/sync returns all data needed to render the mobile app in a single response with sparse session fields
   4. Integration tests verify SSE heartbeat, workspace filtering, and sync response shape
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 11-01: SSE heartbeat, client registry with device tracking, dead connection cleanup
-- [ ] 11-02: Workspace subscription API and SSE workspace filtering
-- [ ] 11-03: Initial sync endpoint with sparse sessions, integration tests for SSE and sync
+- [ ] 11-01-PLAN.md - SSE heartbeat, device-aware client registry, dead connection cleanup
+- [ ] 11-02-PLAN.md - Workspace subscription endpoints and SSE workspace-aware filtering
+- [ ] 11-03-PLAN.md - Initial sync endpoint with sparse sessions, integration tests for SSE and sync
 
 ### Phase 12: API Enhancement
 **Goal**: Power users with hundreds of sessions get paginated, filterable, sortable API responses and long-lived mobile sessions refresh tokens silently
