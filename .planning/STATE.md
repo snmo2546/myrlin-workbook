@@ -69,6 +69,7 @@ Progress: [██████████] 95%
 | Phase 06 P02 | 4m | 2 tasks | 7 files |
 | Phase 06 P03 | 4m | 2 tasks | 6 files |
 | Phase 07 P01 | 4m | 2 tasks | 11 files |
+| Phase 07 P02 | 3m | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -138,6 +139,9 @@ Recent decisions affecting current work:
 - [Phase 06]: renameServer added to server-store as simple map-replace pattern
 - [Phase 07]: Haptics gated by settings-store hapticFeedback boolean via getState()
 - [Phase 07]: Deep link scheme already in app.json; Expo Router auto-resolves from file structure
+- [Phase 07]: MMKV offline queue (id: 'myrlin-offline') with module-level singleton pattern
+- [Phase 07]: replayQueue takes baseUrl+token to avoid circular import with api-client
+- [Phase 07]: Network errors caught at _fetch level; mutations queued, GETs rethrown for TanStack cache
 
 ### Pending Todos
 
@@ -151,6 +155,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29T02:35:41.672Z
-Stopped at: Completed 07-01-PLAN.md (Haptics, Deep Links, Pull-to-Refresh)
+Last session: 2026-03-29T02:35:00.000Z
+Stopped at: Completed 07-02-PLAN.md (Offline Graceful Degradation)
 Resume file: None
