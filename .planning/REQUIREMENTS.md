@@ -155,11 +155,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Platform Integration
 
-- [ ] **PLAT-01**: Haptic feedback on all interactive elements
-- [ ] **PLAT-02**: Native share sheet integration
-- [ ] **PLAT-03**: Deep links (myrlin://session/xyz)
+- [x] **PLAT-01**: Haptic feedback on all interactive elements
+- [x] **PLAT-02**: Native share sheet integration
+- [x] **PLAT-03**: Deep links (myrlin://session/xyz)
 - [ ] **PLAT-04**: Offline graceful degradation (cached state visible, reconnection queue)
-- [ ] **PLAT-05**: Pull-to-refresh on all list screens
+- [x] **PLAT-05**: Pull-to-refresh on all list screens
 
 ### Server Additions
 
@@ -327,11 +327,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SETT-03 | Phase 6 | Complete |
 | SETT-04 | Phase 6 | Complete |
 | SETT-05 | Phase 6 | Complete |
-| PLAT-01 | Phase 7 | Pending |
-| PLAT-02 | Phase 7 | Pending |
-| PLAT-03 | Phase 7 | Pending |
+| PLAT-01 | Phase 7 | Complete |
+| PLAT-02 | Phase 7 | Complete |
+| PLAT-03 | Phase 7 | Complete |
 | PLAT-04 | Phase 7 | Pending |
-| PLAT-05 | Phase 7 | Pending |
+| PLAT-05 | Phase 7 | Complete |
 | TEST-01 | Phase 7 | Pending |
 | TEST-02 | Phase 7 | Pending |
 | TEST-03 | Phase 7 | Pending |
