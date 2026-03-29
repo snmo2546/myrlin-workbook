@@ -152,6 +152,6 @@ Note: Phases 4, 5, and 6 all depend on Phase 3 but not on each other. They can b
 | 2. Connection and Auth | 2/3 | In Progress|  |
 | 3. Sessions and Workspaces | 4/4 | Complete   | 2026-03-29 |
 | 4. Terminal | 3/3 | Complete   | 2026-03-29 |
-| 5. Data Screens | 1/4 | In Progress|  |
+| 5. Data Screens | 2/4 | In Progress|  |
 | 6. Notifications and Settings | 0/3 | Not started | - |
 | 7. Platform Polish and Testing | 0/3 | Not started | - |

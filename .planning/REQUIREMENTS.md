@@ -99,14 +99,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Cost
 
-- [ ] **COST-01**: User can view total cost across all sessions
-- [ ] **COST-02**: User can view cost by time period (today, 7d, 30d, all)
-- [ ] **COST-03**: User can view cost breakdown by model
-- [ ] **COST-04**: User can view cost breakdown by workspace
-- [ ] **COST-05**: User can view cost timeline chart (daily trend)
-- [ ] **COST-06**: User can view top sessions ranked by cost
-- [ ] **COST-07**: User can view per-session cost with token bar visualization
-- [ ] **COST-08**: User can view cache savings display
+- [x] **COST-01**: User can view total cost across all sessions
+- [x] **COST-02**: User can view cost by time period (today, 7d, 30d, all)
+- [x] **COST-03**: User can view cost breakdown by model
+- [x] **COST-04**: User can view cost breakdown by workspace
+- [x] **COST-05**: User can view cost timeline chart (daily trend)
+- [x] **COST-06**: User can view top sessions ranked by cost
+- [x] **COST-07**: User can view per-session cost with token bar visualization
+- [x] **COST-08**: User can view cache savings display
 
 ### Docs
 
@@ -282,14 +282,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | TERM-10 | Phase 4 | Complete |
 | TERM-11 | Phase 4 | Complete |
 | TERM-12 | Phase 4 | Complete |
-| COST-01 | Phase 5 | Pending |
-| COST-02 | Phase 5 | Pending |
-| COST-03 | Phase 5 | Pending |
-| COST-04 | Phase 5 | Pending |
-| COST-05 | Phase 5 | Pending |
-| COST-06 | Phase 5 | Pending |
-| COST-07 | Phase 5 | Pending |
-| COST-08 | Phase 5 | Pending |
+| COST-01 | Phase 5 | Complete |
+| COST-02 | Phase 5 | Complete |
+| COST-03 | Phase 5 | Complete |
+| COST-04 | Phase 5 | Complete |
+| COST-05 | Phase 5 | Complete |
+| COST-06 | Phase 5 | Complete |
+| COST-07 | Phase 5 | Complete |
+| COST-08 | Phase 5 | Complete |
 | DOCS-01 | Phase 5 | Pending |
 | DOCS-02 | Phase 5 | Pending |
 | DOCS-03 | Phase 5 | Pending |
