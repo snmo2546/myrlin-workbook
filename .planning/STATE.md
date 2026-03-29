@@ -3,7 +3,7 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-03-PLAN.md (Connection features)
+stopped_at: Completed 02-02-PLAN.md (Auth screens) and 02-03-PLAN.md (Connection features)
 last_updated: "2026-03-29T00:31:38.945Z"
 last_activity: 2026-03-29 - Completed 02-01 (Server pairing endpoints and mobile foundation)
 progress:
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 ## Current Position
 
 Phase: 2 of 7 (Connection and Auth)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In Progress
-Last activity: 2026-03-29 - Completed 02-01 (Server pairing endpoints and mobile foundation)
+Last activity: 2026-03-29 - Completed 02-02 (Auth screens: onboarding, QR scan, manual connect, login)
 
 Progress: [█████░░░░░] 57%
 
@@ -52,6 +52,7 @@ Progress: [█████░░░░░] 57%
 *Updated after each plan completion*
 | Phase 01-foundation P03 | 1m | 2 tasks | 4 files |
 | Phase 02-connection-and-auth P01 | 6m | 2 tasks | 8 files |
+| Phase 02 P02 | 5m | 4 tasks | 7 files |
 | Phase 02 P03 | 4m | 3 tasks | 7 files |
 
 ## Accumulated Context
@@ -78,6 +79,10 @@ Recent decisions affecting current work:
 - [Phase 02]: MMKV for biometric preference (non-sensitive, sync reads)
 - [Phase 02]: Health polling: 5s base, doubles to 60s max, recursive setTimeout for backoff
 - [Phase 02]: Disconnect is best-effort server-side, always clears local state
+- 02-02: Conditional Stack rendering for auth gate (not Redirect component)
+- 02-02: Hydration gate prevents flash-to-onboarding for returning users
+- 02-02: expo-camera CameraView with barcodeScannerSettings for QR scanning
+- 02-02: QR scan cooldown (1.5s) prevents multiple fires on same code
 
 ### Pending Todos
 
@@ -91,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29T00:31:38.941Z
-Stopped at: Completed 02-03-PLAN.md (Connection features)
+Last session: 2026-03-29T00:31:24Z
+Stopped at: Completed 02-02-PLAN.md (Auth screens) and 02-03-PLAN.md (Connection features)
 Resume file: None

@@ -20,14 +20,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Connection
 
-- [ ] **CONN-01**: User can scan QR code from desktop Myrlin UI to pair their phone
-- [ ] **CONN-02**: User can manually enter server URL and password to connect
+- [x] **CONN-01**: User can scan QR code from desktop Myrlin UI to pair their phone
+- [x] **CONN-02**: User can manually enter server URL and password to connect
 - [x] **CONN-03**: Auth token stored securely in expo-secure-store (encrypted)
 - [x] **CONN-04**: App reconnects automatically when connection drops and recovers
 - [x] **CONN-05**: User can connect to multiple servers (home PC, work, etc.)
 - [x] **CONN-06**: User can switch between connected servers
 - [x] **CONN-07**: Server connection status visible at all times (connected/disconnected indicator)
-- [ ] **CONN-08**: Onboarding flow guides first-time user through pairing
+- [x] **CONN-08**: Onboarding flow guides first-time user through pairing
 
 ### Authentication
 
@@ -226,14 +226,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-06 | Phase 1 | Complete |
 | FOUND-07 | Phase 1 | Complete |
 | FOUND-08 | Phase 1 | Complete |
-| CONN-01 | Phase 2 | Pending |
-| CONN-02 | Phase 2 | Pending |
+| CONN-01 | Phase 2 | Complete |
+| CONN-02 | Phase 2 | Complete |
 | CONN-03 | Phase 2 | Complete |
 | CONN-04 | Phase 2 | Complete |
 | CONN-05 | Phase 2 | Complete |
 | CONN-06 | Phase 2 | Complete |
 | CONN-07 | Phase 2 | Complete |
-| CONN-08 | Phase 2 | Pending |
+| CONN-08 | Phase 2 | Complete |
 | AUTH-01 | Phase 2 | Complete |
 | AUTH-02 | Phase 2 | Complete |
 | AUTH-03 | Phase 2 | Complete |
