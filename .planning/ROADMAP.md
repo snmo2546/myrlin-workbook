@@ -49,12 +49,12 @@ Plans:
   3. User can enable Face ID or fingerprint to lock the app, and the lock gate blocks all screens until authenticated
   4. User can add multiple servers and switch between them; each server maintains its own auth token
   5. Connection status indicator is visible on every screen showing connected or disconnected state
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: Server pairing endpoints (SRVR-01, SRVR-02) and API client with typed responses
-- [ ] 02-02: QR scanning, manual connect, onboarding flow, SecureStore token persistence
-- [ ] 02-03: Multi-server support, server switching, biometric lock, auto-reconnect
+- [ ] 02-01-PLAN.md - Server pairing endpoints, auth.js exports, API client, server store, types
+- [ ] 02-02-PLAN.md - QR scanning, manual connect, onboarding, login screens, root auth gate
+- [ ] 02-03-PLAN.md - Multi-server switching, biometric lock, auto-reconnect, connection status dot
 
 ### Phase 3: Sessions and Workspaces
 **Goal**: User can view, manage, and interact with all their Claude sessions and workspaces in real-time, with search and conflict detection
