@@ -84,18 +84,18 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Tasks
 
-- [ ] **TASK-01**: User can view worktree tasks in kanban board (5 columns)
-- [ ] **TASK-02**: User can drag task cards between columns to change status
-- [ ] **TASK-03**: User can view task in list mode (alternative to board)
-- [ ] **TASK-04**: User can create a new worktree task
-- [ ] **TASK-05**: User can view task detail (branch, files, commits, PR, timeline)
-- [ ] **TASK-06**: User can set task blockers (dependency)
-- [ ] **TASK-07**: User can assign model to a task
-- [ ] **TASK-08**: User can add/edit tags on tasks
-- [ ] **TASK-09**: User can create a GitHub PR from task
-- [ ] **TASK-10**: User can view PR status on task card
-- [ ] **TASK-11**: User can merge or reject a task branch
-- [ ] **TASK-12**: User can extract tasks from session via AI spinoff
+- [x] **TASK-01**: User can view worktree tasks in kanban board (5 columns)
+- [x] **TASK-02**: User can drag task cards between columns to change status
+- [x] **TASK-03**: User can view task in list mode (alternative to board)
+- [x] **TASK-04**: User can create a new worktree task
+- [x] **TASK-05**: User can view task detail (branch, files, commits, PR, timeline)
+- [x] **TASK-06**: User can set task blockers (dependency)
+- [x] **TASK-07**: User can assign model to a task
+- [x] **TASK-08**: User can add/edit tags on tasks
+- [x] **TASK-09**: User can create a GitHub PR from task
+- [x] **TASK-10**: User can view PR status on task card
+- [x] **TASK-11**: User can merge or reject a task branch
+- [x] **TASK-12**: User can extract tasks from session via AI spinoff
 
 ### Cost
 
@@ -298,18 +298,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DOCS-06 | Phase 5 | Complete |
 | DOCS-07 | Phase 5 | Complete |
 | DOCS-08 | Phase 5 | Complete |
-| TASK-01 | Phase 5 | Pending |
-| TASK-02 | Phase 5 | Pending |
-| TASK-03 | Phase 5 | Pending |
-| TASK-04 | Phase 5 | Pending |
-| TASK-05 | Phase 5 | Pending |
-| TASK-06 | Phase 5 | Pending |
-| TASK-07 | Phase 5 | Pending |
-| TASK-08 | Phase 5 | Pending |
-| TASK-09 | Phase 5 | Pending |
-| TASK-10 | Phase 5 | Pending |
-| TASK-11 | Phase 5 | Pending |
-| TASK-12 | Phase 5 | Pending |
+| TASK-01 | Phase 5 | Complete |
+| TASK-02 | Phase 5 | Complete |
+| TASK-03 | Phase 5 | Complete |
+| TASK-04 | Phase 5 | Complete |
+| TASK-05 | Phase 5 | Complete |
+| TASK-06 | Phase 5 | Complete |
+| TASK-07 | Phase 5 | Complete |
+| TASK-08 | Phase 5 | Complete |
+| TASK-09 | Phase 5 | Complete |
+| TASK-10 | Phase 5 | Complete |
+| TASK-11 | Phase 5 | Complete |
+| TASK-12 | Phase 5 | Complete |
 | RSRC-01 | Phase 5 | Complete |
 | RSRC-02 | Phase 5 | Complete |
 | RSRC-03 | Phase 5 | Complete |
