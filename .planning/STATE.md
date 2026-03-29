@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Mobile App
 status: executing
-stopped_at: Completed 12-02-PLAN.md
-last_updated: "2026-03-29T08:43:03.374Z"
+stopped_at: Completed 11-02-PLAN.md
+last_updated: "2026-03-29T08:43:11.189Z"
 last_activity: 2026-03-29 - Completed Plan 11-01 (SSE heartbeat and device-aware client registry)
 progress:
   total_phases: 13
@@ -84,6 +84,7 @@ Progress: [███████░░░] 73% (27/37 plans)
 - [Phase 12]: Token refresh only for device tokens (403 for browser tokens) as security boundary
 - [Phase 11]: Empty or null subscriptions = receive all events (backward compat with desktop)
 - [Phase 11]: workspace:created added to GLOBAL_EVENT_TYPES so new workspaces reach all clients
+- [Phase 11]: SSE client subscriptions updated in-place on POST, no reconnection needed
 
 ### Pending Todos
 
@@ -95,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-29T08:42:53.076Z
-Stopped at: Completed 12-02-PLAN.md
+Last session: 2026-03-29T08:43:11.185Z
+Stopped at: Completed 11-02-PLAN.md
 Resume file: None

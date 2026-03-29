@@ -57,16 +57,16 @@
 - [x] **SSE-01**: SSE sends heartbeat comment (`: heartbeat`) every 30 seconds
 - [x] **SSE-02**: SSE client registry tracks device metadata (deviceId, subscriptions)
 - [x] **SSE-03**: SSE supports deviceId query param for device-specific filtering
-- [ ] **SSE-04**: SSE filters workspace-scoped events by device's workspace subscriptions
+- [x] **SSE-04**: SSE filters workspace-scoped events by device's workspace subscriptions
 - [x] **SSE-05**: Global events (settings, server status) always sent regardless of subscriptions
 - [x] **SSE-06**: Dead SSE connections cleaned up within 60 seconds
 
 ### Workspace Subscriptions
 
-- [ ] **WSUB-01**: POST /api/devices/:deviceId/subscriptions sets workspace subscription list
-- [ ] **WSUB-02**: GET /api/devices/:deviceId/subscriptions returns current subscriptions
-- [ ] **WSUB-03**: Subscriptions stored in device record in pairedDevices
-- [ ] **WSUB-04**: Empty subscription list means "receive all events" (default)
+- [x] **WSUB-01**: POST /api/devices/:deviceId/subscriptions sets workspace subscription list
+- [x] **WSUB-02**: GET /api/devices/:deviceId/subscriptions returns current subscriptions
+- [x] **WSUB-03**: Subscriptions stored in device record in pairedDevices
+- [x] **WSUB-04**: Empty subscription list means "receive all events" (default)
 
 ### Initial Sync
 
@@ -181,13 +181,13 @@
 | SSE-01 | Phase 11 | Complete |
 | SSE-02 | Phase 11 | Complete |
 | SSE-03 | Phase 11 | Complete |
-| SSE-04 | Phase 11 | Pending |
+| SSE-04 | Phase 11 | Complete |
 | SSE-05 | Phase 11 | Complete |
 | SSE-06 | Phase 11 | Complete |
-| WSUB-01 | Phase 11 | Pending |
-| WSUB-02 | Phase 11 | Pending |
-| WSUB-03 | Phase 11 | Pending |
-| WSUB-04 | Phase 11 | Pending |
+| WSUB-01 | Phase 11 | Complete |
+| WSUB-02 | Phase 11 | Complete |
+| WSUB-03 | Phase 11 | Complete |
+| WSUB-04 | Phase 11 | Complete |
 | SYNC-01 | Phase 11 | Pending |
 | SYNC-02 | Phase 11 | Pending |
 | SYNC-03 | Phase 11 | Pending |
